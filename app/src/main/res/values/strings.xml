@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Traveler</string>
+    <string name="title_activity_general_map">Map</string>
+    <string name="title_activity_oman_map">Map</string>
+    <string name="title_activity_usa_map">Map</string>
+    <string name="title_activity_malaisie_map">Map</string>
+</resources>

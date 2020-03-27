@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".malaisieactivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kuala Lumpur"
+                android:fontFamily="monospace"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/kualaimage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Kuala Lumpur fut notre port d’entrée en Malaisie, ainsi que notre port de sortie. À l’image du reste de la Malaisie, Kuala Lumpur, capitale de cette dernière,  est multiculturelle et surtout plaisante à visiter. Entre marchés traditionnelles, grattes ciels et bâtiments historiques  vous y trouverez aisément votre bonheur. "
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nusa Penida"
+                android:fontFamily="monospace"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:src="@drawable/nusapenidaimage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Se situant à proximité de l'île de Bali qu’on ne présente plus. Nusa Penida est une petite et charmante île qui a à vous proposer des merveilleux paysages et une expérience hors du commun pour votre âme d’aventurier. Sur cette île les paysages se merit. Kelingking beach, par exemple, est une somptueuse plage qui est accessible uniquement à pied à hauteur d’une bonne heure d’escalade et de marche montagneuse. Tout se mérite !"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gili"
+                android:fontFamily="monospace"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/giliimage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Les belles îles Gili ! Situées au large de Bali et Lombok, les Îles Gili se composent de 3 îlots à savoir Gili Trawangan, Gili Meno et Gili Air. Facilement accessibles en bateau depuis Bali ou Lombok, ces îles jouissent d’une belle réputation auprès des voyageurs. J’ai choisi lors de mon voyage Gili Air qui est connu pour être la plus propice à la détente et au calme des trois."
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lombok"
+                android:fontFamily="monospace"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:src="@drawable/lombokimage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Lombok s’est fait connaître ces dernières années du grand public comme une alternative à Bali dont elle est voisine et bien reliée par voie maritime et aérienne à coût modéré. L’occidentalisation étant quasi nulle en-dehors des centres touristiques tels que Kuta et Senggigi, l’exotisme est assuré."
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+
+            <ImageView
+                android:id="@+id/mapmalaise"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/googlemapsping"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

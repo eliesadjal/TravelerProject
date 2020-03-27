@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usaactivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/separateur"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Los Angeles"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/losangeles" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Los Angeles est LA (sans mauvais jeu de mot) ville de la West Coast. C’est aussi la ville dans laquelle nous avons résidé durant la majeure partie de notre trip de deux semaines. C’est une ville jeune offrant un tas d’activités. A L.A, pas le temps de s’ennuyer...Venice Beach, Hollywood boulevard, Beverly Hills sont trois parmi les nombreux spots mythiques à découvrir dans la Mégapole."
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Las Vegas"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lasvegas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="La folie des grandeurs par définition. Tout est exagéré, tout est monumental. Pas spécialement charmant mais on peut dire que ça vaut grave le détour. Nous avons passé deux nuits au Hilton pour avoir un pied à terre « « à proximité » » (7h de route) du grand Canyon."
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Grand Canyon"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/grandcanyon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="La plus belle chose que nous ayons pu observer lors de notre voyage. Une vue à couper le souffle et une impression d’être minuscules par rapport à cette immensité de la nature. (La route a été longue et un peu pénible mais ça valait largement le détour !!)"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="San Francisco"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@drawable/sanfrancisco" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="La plus belle ville de la côte ouest des États-Unis. Elle est un petit bout d’Europe au pays de l’oncle Sam. En effet, San Francisco est la ville la plus proche des standards des grandes capitales du vieux continent. De Little italy au Golden Gate Bridge, en passant par Pier 39 et la prison maritime d’Alcatraz, tout vaut le détour dans cette ville magnifique."
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/separateur"/>
+
+
+
+            <ImageView
+                android:id="@+id/mapusa"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/googlemapsping"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    tools:context=".MainActivity">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="TRAVELER"
+           android:textSize="50dp"
+           android:fontFamily="serif-monospace"
+           android:gravity="center"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:src="@drawable/gris"/>
+
+       <ImageView
+           android:id="@+id/oman"
+           android:layout_width="60dp"
+           android:layout_height="40dp"
+           android:src="@drawable/omanflagg"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           tools:ignore="MissingConstraints" />
+
+       <ImageView
+           android:id="@+id/usa"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/usaflag"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/oman"
+           app:layout_constraintVertical_bias="0" />
+
+       <ImageView
+        android:id="@+id/malaisie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/malaisieflag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usa"
+        app:layout_constraintVertical_bias="0.0" />
+
+   </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

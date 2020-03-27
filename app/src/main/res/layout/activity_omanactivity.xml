@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".omanactivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/separateur"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Wadi Shab"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:src="@drawable/wadishabimage"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Wadi Shab Oman est un des canyons les plus populaires du Sultanat. Ce site est un petit paradis. l'accès est limité par la rivière et pour atteindre le fond il ne faut pas seulement marcher mais aussi nager !"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Wahiba Sand"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/wahabisandsimage"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Pas très loin de la mer, les dunes de sable du désert de Wahiba Sands Oman s'étirent de nord au sud sur 180km. Passez la nuit dans ce désert, isolé de tout, est une expérience inoubliable !"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/separateur"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Jebel Shams"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:src="@drawable/wadishabimage"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text=" La montagne du soleil » vous ouvre ses bras ! Jebel Shams, point culminant du pays avec son pic à 3075 mètres d’altitude, est un lieu incontournable pour qui cherche des paysages à couper le souffle ! En plein cœur du « grand canyon d’Arabie », où se cachent de magnifiques wadis, vous ne saurez plus où poser votre regard ! Passez une nuit sur le plateau des bergers, d’où vous pourrez admirer un somptueux coucher de soleil!"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/separateur"/>
+
+
+            <ImageView
+                android:id="@+id/mapoman"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/googlemapsping"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
